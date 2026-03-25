@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: graplo.github.io/sitemap.xml
