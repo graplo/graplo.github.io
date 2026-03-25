@@ -1,17 +1,17 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "es"
+languageName = "Español"
 weight = 1
-title = "Blowfish"
+title = "Graplo"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "ES"
+  isoCode = "es"
   rtl = false
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Linux, terminal y open source desde Lima."
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
@@ -20,8 +20,8 @@ title = "Blowfish"
   image = "img/avatar.png"
 #   imageQuality = 96
   headline = "Linux · OSS · Fotografía"
-#   bio = "A little bit about you"
-#   links = [
+  bio = "Usuario de Linux desde Ubuntu hasta CachyOS. Contribuidor open source, amante del terminal y del tema Dracula."
+  links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -35,11 +35,11 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+    { github = "https://github.com/graplo" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://instagram.com/username" },
+    { instagram = "https://instagram.com/graplo_street" },
 #     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { keyoxide = "https://keyoxide.org/URI" },
@@ -70,8 +70,8 @@ title = "Blowfish"
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
-#     { youtube = "https://youtube.com/username" },
+    { youtube = "https://youtube.com/@Graplo" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
 #     { printables = "https://www.printables.com/@username"},
-#   ]
+  ]
