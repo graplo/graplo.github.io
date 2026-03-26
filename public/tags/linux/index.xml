@@ -26,7 +26,7 @@
       
       <guid>http://localhost:1313/blog/logseq-dracula/</guid>
       <description>&lt;p&gt;Logseq es una&#xA;aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo.&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/logseq-dracula/feature.webp" />
     </item>
     
     <item>
