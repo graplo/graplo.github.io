@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Graplo</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Logseq - Dracula theme - arreglo</title>
+      <link>http://localhost:1313/blog/logseq-dracula/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/logseq-dracula/</guid>
+      <description>&lt;p&gt;Logseq es una&#xA;aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
