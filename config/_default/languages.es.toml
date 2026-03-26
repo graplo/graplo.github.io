@@ -16,11 +16,11 @@ title = "Graplo"
 
 [params.author]
   name = "Graplo"
-  # email = "youremail@example.com"
+  email = "graplo@disroot.com"
   image = "img/avatar.png"
 #   imageQuality = 96
   headline = "Linux · OSS · Fotografía"
-  bio = "Usuario de Linux desde Ubuntu hasta CachyOS. Contribuidor open source, amante del terminal y del tema Dracula."
+  bio = "Usuario de CachyOS. Le gusta el terminal y contribuye con el open source y del tema favoríto Dracula."
   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

@@ -6,14 +6,56 @@
     <description>Recent content in Tags on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/tags/open-source/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/open-source/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>http://localhost:1313/tags/rust/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/rust/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TUI</title>
+      <link>http://localhost:1313/tags/tui/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/tui/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>CLI</title>
       <link>http://localhost:1313/tags/cli/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
+      <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/cli/</guid>
       <description></description>
       
@@ -23,18 +65,8 @@
       <title>GUI</title>
       <link>http://localhost:1313/tags/gui/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
+      <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/gui/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -43,28 +75,8 @@
       <title>Markdown</title>
       <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
+      <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/markdown/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>http://localhost:1313/tags/open-source/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/open-source/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Rust</title>
-      <link>http://localhost:1313/tags/rust/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/rust/</guid>
       <description></description>
       
     </item>
@@ -73,18 +85,8 @@
       <title>Torrent</title>
       <link>http://localhost:1313/tags/torrent/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
+      <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/torrent/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>TUI</title>
-      <link>http://localhost:1313/tags/tui/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/tui/</guid>
       <description></description>
       
     </item>
