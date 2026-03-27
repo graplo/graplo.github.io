@@ -9,7 +9,7 @@ title = "Graplo"
   isoCode = "es"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "img/jap-logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Linux, terminal y open source desde Lima."
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -17,7 +17,7 @@ title = "Graplo"
 [params.author]
   name = "Graplo"
   email = "graplo@disroot.com"
-  image = "img/avatar.png"
+  image = "img/avatar.webp"
 #   imageQuality = 96
   headline = "Linux · OSS · Fotografía"
   bio = "Usuario de CachyOS. Le gusta el terminal y contribuye con el open source y del tema favoríto Dracula."
