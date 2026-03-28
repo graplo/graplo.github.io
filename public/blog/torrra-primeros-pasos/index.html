@@ -61,7 +61,8 @@
   <meta property="og:url" content="http://localhost:1313/blog/torrra-primeros-pasos/">
   <meta property="og:site_name" content="Graplo">
   <meta property="og:title" content="Torrra - Primeros Pasos">
-  <meta property="og:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett. Instalación # logseq.order-list-type:: number paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # logseq.order-list-type:: number [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # logseq.order-list-type:: number sudo systemctl start jackett si queremos parar el demonio jackett logseq.order-list-type:: number sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # logseq.order-list-type:: number Copiar API key al config.toml logseq.order-list-type:: number Agregar trackers (The Pirate Bay, YTS, etc.) logseq.order-list-type:: number Usar torrra # logseq.order-list-type:: number torrra Alternativa para no escribir toda la palabra torrra # logseq.order-list-type:: number alias --save rrr=&#34;torrra&#34; Con eso solo se pone rrr en la terminal: logseq.order-list-type:: number rrr logseq.order-list-type:: number">
+  <meta property="og:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett.
+Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # sudo systemctl start jackett si queremos parar el demonio jackett # sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # Copiar API key al config.toml Agregar trackers (The Pirate Bay, YTS, etc.) Usar torrra # torrra Alternativa para no escribir toda la palabra torrra # alias rrr=&#34;torrra&#34; funcsave rrr con funcsave es para que se quede el comando permanente.">
   <meta property="og:locale" content="es">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -77,7 +78,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog/torrra-primeros-pasos/feature.webp">
   <meta name="twitter:title" content="Torrra - Primeros Pasos">
-  <meta name="twitter:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett. Instalación # logseq.order-list-type:: number paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # logseq.order-list-type:: number [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # logseq.order-list-type:: number sudo systemctl start jackett si queremos parar el demonio jackett logseq.order-list-type:: number sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # logseq.order-list-type:: number Copiar API key al config.toml logseq.order-list-type:: number Agregar trackers (The Pirate Bay, YTS, etc.) logseq.order-list-type:: number Usar torrra # logseq.order-list-type:: number torrra Alternativa para no escribir toda la palabra torrra # logseq.order-list-type:: number alias --save rrr=&#34;torrra&#34; Con eso solo se pone rrr en la terminal: logseq.order-list-type:: number rrr logseq.order-list-type:: number">
+  <meta name="twitter:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett.
+Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # sudo systemctl start jackett si queremos parar el demonio jackett # sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # Copiar API key al config.toml Agregar trackers (The Pirate Bay, YTS, etc.) Usar torrra # torrra Alternativa para no escribir toda la palabra torrra # alias rrr=&#34;torrra&#34; funcsave rrr con funcsave es para que se quede el comando permanente.">
 
   
   
@@ -250,7 +252,7 @@
     "keywords": ["linux","TUI","torrent","open source"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "152"
+    "wordCount": "143"
   }]
   </script>
 
@@ -344,15 +346,15 @@
       
   
     <a
-      href="/tags/"
+      href="/projects/"
       
       class="flex items-center bf-icon-color-hover"
-      aria-label="Tags"
-      title="Tags">
+      aria-label="Proyectos"
+      title="Proyectos">
       
       
         <span class="text-base font-medium break-normal">
-          Tags
+          Proyectos
         </span>
       
     </a>
@@ -471,13 +473,13 @@
     
     <div class="px-2">
       <a
-        href="/tags/"
-        aria-label="Tags"
+        href="/projects/"
+        aria-label="Proyectos"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="Tags" class="text-2xl font-bold tracking-tight">
-          Tags
+        <span title="Proyectos" class="text-2xl font-bold tracking-tight">
+          Proyectos
         </span>
         
       </a>
@@ -633,7 +635,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>152 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
+      <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>143 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
     
 
     
@@ -643,6 +645,76 @@
   
 
   
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/terminal/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Terminal
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/linux/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/tui/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    TUI
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/torrent/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Torrent
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/open-source/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Open Source
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
   
 
   
@@ -684,8 +756,8 @@
         width="96"
         height="96"
         alt="Graplo"
-        src="/img/avatar_hu_470d71ba376dc471.webp"
-        data-zoom-src="/img/avatar_hu_68c172894521b0f6.webp">
+        src="/img/avatar_hu_8fed4e63132ea148.webp"
+        data-zoom-src="/img/avatar_hu_99c397fc11d2a471.webp">
     
   
   <div class="place-self-center">
@@ -788,10 +860,18 @@
   <ul>
     <li><a href="#instalación">Instalación</a></li>
     <li><a href="#configuración-de-torrra-en-configtorrraconfigtoml">Configuración de torrra en ~/.config/torrra/config.toml:</a></li>
-    <li><a href="#iniciar-jackett">Iniciar Jackett</a></li>
+    <li><a href="#iniciar-jackett">Iniciar Jackett</a>
+      <ul>
+        <li><a href="#si-queremos-parar-el-demonio-jackett">si queremos parar el demonio jackett</a></li>
+      </ul>
+    </li>
     <li><a href="#interfaz-web-de-jackett-en-httplocalhost9117">Interfaz web de Jackett en http://localhost:9117:</a></li>
-    <li><a href="#usar-torrra">Usar torrra</a></li>
-    <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
+    <li><a href="#usar-torrra">Usar torrra</a>
+      <ul>
+        <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
+        <li><a href="#con-eso-solo-se-pone-rrr-en-la-terminal">Con eso solo se pone <code>rrr</code> en la terminal:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -807,10 +887,18 @@
   <ul>
     <li><a href="#instalación">Instalación</a></li>
     <li><a href="#configuración-de-torrra-en-configtorrraconfigtoml">Configuración de torrra en ~/.config/torrra/config.toml:</a></li>
-    <li><a href="#iniciar-jackett">Iniciar Jackett</a></li>
+    <li><a href="#iniciar-jackett">Iniciar Jackett</a>
+      <ul>
+        <li><a href="#si-queremos-parar-el-demonio-jackett">si queremos parar el demonio jackett</a></li>
+      </ul>
+    </li>
     <li><a href="#interfaz-web-de-jackett-en-httplocalhost9117">Interfaz web de Jackett en http://localhost:9117:</a></li>
-    <li><a href="#usar-torrra">Usar torrra</a></li>
-    <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
+    <li><a href="#usar-torrra">Usar torrra</a>
+      <ul>
+        <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
+        <li><a href="#con-eso-solo-se-pone-rrr-en-la-terminal">Con eso solo se pone <code>rrr</code> en la terminal:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -827,9 +915,7 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <ul>
-<li>TUI para buscar y descargar torrents desde la terminal, powered by Jackett.</li>
-<li>
+          <p>TUI para buscar y descargar torrents desde la terminal, powered by Jackett.</p>
 
 <h2 class="relative group">Instalación
     <div id="instalación" class="anchor"></div>
@@ -840,11 +926,8 @@
     </span>
     
 </h2>
-logseq.order-list-type:: number
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">paru -S jackett-bin
 </span></span><span class="line"><span class="cl">paru -S torrra</span></span></code></pre></div></div>
-</li>
-<li>
 
 <h2 class="relative group">Configuración de torrra en ~/.config/torrra/config.toml:
     <div id="configuración-de-torrra-en-configtorrraconfigtoml" class="anchor"></div>
@@ -855,27 +938,24 @@ logseq.order-list-type:: number
     </span>
     
 </h2>
-logseq.order-list-type:: number
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">general</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">download_path</span> <span class="p">=</span> <span class="s2">&#34;/home/graplo/Descargas&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">download_in_external_client</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">use_transmission</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">transmission_user</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">transmission_pass</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;dracula&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">timeout</span> <span class="p">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl"><span class="nx">max_retries</span> <span class="p">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="nx">use_cache</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">cache_ttl</span> <span class="p">=</span> <span class="mi">300</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">indexers</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;jackett&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">indexers</span><span class="p">.</span><span class="nx">jackett</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;http://localhost:9117&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">api_key</span> <span class="p">=</span> <span class="s2">&#34;TU_API_KEY&#34;</span></span></span></code></pre></div></div>
-</li>
-<li>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">general</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">download_path</span> <span class="p">=</span> <span class="s2">&#34;/home/graplo/Descargas&#34;</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">download_in_external_client</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">use_transmission</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">transmission_user</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">transmission_pass</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;dracula&#34;</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">timeout</span> <span class="p">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">max_retries</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">use_cache</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">cache_ttl</span> <span class="p">=</span> <span class="mi">300</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">indexers</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;jackett&#34;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">indexers</span><span class="p">.</span><span class="nx">jackett</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;http://localhost:9117&#34;</span>
+</span></span><span class="line"><span class="cl"> <span class="nx">api_key</span> <span class="p">=</span> <span class="s2">&#34;TU_API_KEY&#34;</span></span></span></code></pre></div></div>
 
 <h2 class="relative group">Iniciar Jackett
     <div id="iniciar-jackett" class="anchor"></div>
@@ -886,16 +966,18 @@ logseq.order-list-type:: number
     </span>
     
 </h2>
-logseq.order-list-type:: number
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl start jackett</span></span></code></pre></div></div>
-<ul>
-<li>si queremos parar el demonio jackett
-logseq.order-list-type:: number
+
+<h3 class="relative group">si queremos parar el demonio jackett
+    <div id="si-queremos-parar-el-demonio-jackett" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#si-queremos-parar-el-demonio-jackett" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl stop jackett</span></span></code></pre></div></div>
-</li>
-</ul>
-</li>
-<li>
 
 <h2 class="relative group">Interfaz web de Jackett en http://localhost:9117:
     <div id="interfaz-web-de-jackett-en-httplocalhost9117" class="anchor"></div>
@@ -906,15 +988,10 @@ logseq.order-list-type:: number
     </span>
     
 </h2>
-logseq.order-list-type:: number
 <ul>
-<li>Copiar API key al config.toml
-logseq.order-list-type:: number</li>
-<li>Agregar trackers (The Pirate Bay, YTS, etc.)
-logseq.order-list-type:: number</li>
+<li>Copiar API key al <code>config.toml</code></li>
+<li>Agregar trackers (The Pirate Bay, YTS, etc.)</li>
 </ul>
-</li>
-<li>
 
 <h2 class="relative group">Usar torrra
     <div id="usar-torrra" class="anchor"></div>
@@ -925,12 +1002,9 @@ logseq.order-list-type:: number</li>
     </span>
     
 </h2>
-logseq.order-list-type:: number
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">torrra</span></span></code></pre></div></div>
-</li>
-<li>
 
-<h2 class="relative group">Alternativa para no escribir toda la palabra <strong>torrra</strong>
+<h3 class="relative group">Alternativa para no escribir toda la palabra <strong>torrra</strong>
     <div id="alternativa-para-no-escribir-toda-la-palabra-torrra" class="anchor"></div>
     
     <span
@@ -938,18 +1012,21 @@ logseq.order-list-type:: number
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#alternativa-para-no-escribir-toda-la-palabra-torrra" aria-label="Ancla">#</a>
     </span>
     
-</h2>
-logseq.order-list-type:: number
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">alias</span> --save <span class="nv">rrr</span><span class="o">=</span><span class="s2">&#34;torrra&#34;</span></span></span></code></pre></div></div>
-<ul>
-<li>Con eso solo se pone <code>rrr</code> en la terminal:
-logseq.order-list-type:: number
+</h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">rrr</span><span class="o">=</span><span class="s2">&#34;torrra&#34;</span>
+</span></span><span class="line"><span class="cl">funcsave rrr</span></span></code></pre></div></div>
+<blockquote><p>con funcsave es para que se quede el comando permanente.</p>
+</blockquote>
+<h3 class="relative group">Con eso solo se pone <code>rrr</code> en la terminal:
+    <div id="con-eso-solo-se-pone-rrr-en-la-terminal" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#con-eso-solo-se-pone-rrr-en-la-terminal" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rrr</span></span></code></pre></div></div>
-</li>
-</ul>
-</li>
-<li>logseq.order-list-type:: number</li>
-</ul>
 
           
           
@@ -1028,6 +1105,40 @@ logseq.order-list-type:: number
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Categories
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     
   
   <div class="flex items-center justify-between">

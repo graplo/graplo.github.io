@@ -2,6 +2,7 @@
 title: "rmpc - instalación"
 date: 2026-03-26
 tags: ["linux", "TUI", "rust", "open source"]
+categories: ["Terminal"]
 ---
 
 {{<icon"music">}} Rmpc es un cliente moderno y rápido para Music Player Daemon (MPD). Escrito en Rust, está diseñado para funcionar en la terminal (TUI) de sistemas Linux. Se caracteriza por ser altamente configurable, tener soporte para carátulas de álbumes y ofrecer una experiencia de navegación de tres columnas tipo ranger.
@@ -13,7 +14,7 @@ tags: ["linux", "TUI", "rust", "open source"]
 ```bash
 sudo pacman -S --needed mpd mpc rustup rmpc 
 ```
-Opcional (extras recomendados):
+### Opcional (extras recomendados):
 
 ```bash
 sudo pacman -S --needed cava ffmpeg yt-dlp ueberzugpp
@@ -34,7 +35,7 @@ Crear archivo:
 hx ~/.config/mpd/mpd.conf
 ```
 
-Contenido mínimo funcional:
+### Contenido mínimo funcional:
 
 ```bash
 music_directory    "~/Música"
@@ -75,7 +76,7 @@ touch ~/.local/share/mpd/sticker.sql
 systemctl --user enable --now mpd
 ```
 
-Verificar:
+### Verificar:
 
 ```bash
 systemctl --user status mpd
@@ -92,7 +93,7 @@ Active: active (running)
 systemctl --user enable --now mpd
 ```
 
-Verificar:
+### Verificar:
 
 ```bash
 systemctl --user status mpd

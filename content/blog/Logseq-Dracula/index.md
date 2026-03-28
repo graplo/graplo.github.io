@@ -2,6 +2,7 @@
 title: "Logseq - Dracula theme - arreglo"
 date: 2026-03-25
 tags: ["linux", "GUI", "markdown", "open source"]
+categories: ["Software"]
 ---
 Logseq es una
 aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo. 

@@ -336,15 +336,15 @@
       
   
     <a
-      href="/tags/"
+      href="/projects/"
       
       class="flex items-center bf-icon-color-hover"
-      aria-label="Tags"
-      title="Tags">
+      aria-label="Proyectos"
+      title="Proyectos">
       
       
         <span class="text-base font-medium break-normal">
-          Tags
+          Proyectos
         </span>
       
     </a>
@@ -463,13 +463,13 @@
     
     <div class="px-2">
       <a
-        href="/tags/"
-        aria-label="Tags"
+        href="/projects/"
+        aria-label="Proyectos"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="Tags" class="text-2xl font-bold tracking-tight">
-          Tags
+        <span title="Proyectos" class="text-2xl font-bold tracking-tight">
+          Proyectos
         </span>
         
       </a>
@@ -684,7 +684,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>152 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
+      <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>143 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
     
 
     
@@ -695,6 +695,76 @@
 
   
   
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/terminal/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Terminal
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/linux/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/tui/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    TUI
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/torrent/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Torrent
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/open-source/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Open Source
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
 
   
   
@@ -704,7 +774,9 @@
     </div>
     
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-         TUI para buscar y descargar torrents desde la terminal, powered by Jackett. Instalación # logseq.order-list-type:: number paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # logseq.order-list-type:: number [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # logseq.order-list-type:: number sudo systemctl start jackett si queremos parar el demonio jackett logseq.order-list-type:: number sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # logseq.order-list-type:: number Copiar API key al config.toml logseq.order-list-type:: number Agregar trackers (The Pirate Bay, YTS, etc.) logseq.order-list-type:: number Usar torrra # logseq.order-list-type:: number torrra Alternativa para no escribir toda la palabra torrra # logseq.order-list-type:: number alias --save rrr=&#34;torrra&#34; Con eso solo se pone rrr en la terminal: logseq.order-list-type:: number rrr logseq.order-list-type:: number 
+        TUI para buscar y descargar torrents desde la terminal, powered by Jackett.
+Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # sudo systemctl start jackett si queremos parar el demonio jackett # sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # Copiar API key al config.toml Agregar trackers (The Pirate Bay, YTS, etc.) Usar torrra # torrra Alternativa para no escribir toda la palabra torrra # alias rrr=&#34;torrra&#34; funcsave rrr con funcsave es para que se quede el comando permanente.
+
       </div>
     
   </div>
@@ -745,6 +817,40 @@
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Categories
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     
   
   <div class="flex items-center justify-between">
