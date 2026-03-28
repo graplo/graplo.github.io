@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Graplo</title><link>https://graplo.github.io/blog/</link><description>Recent content in Blog on Graplo</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>graplo@disroot.com (Graplo)</managingEditor><webMaster>graplo@disroot.com (Graplo)</webMaster><copyright>© 2026 Graplo</copyright><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://graplo.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>rmpc - instalación</title><link>https://graplo.github.io/blog/rmpc-installation/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/rmpc-installation/</guid><description>&lt;p&gt;&lt;span class="relative inline-block align-text-bottom icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M511.1 367.1c0 44.18-42.98 80-95.1 80s-95.1-35.82-95.1-79.1c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32.01 4.898V148.1L192 224l-.0023 208.1C191.1 476.2 149 512 95.1 512S0 476.2 0 432c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32 4.898V126.5c0-12.97 10.06-26.63 22.41-30.52l319.1-94.49C472.1 .6615 477.3 0 480 0c17.66 0 31.97 14.34 32 31.99L511.1 367.1z"/&gt;&lt;/svg&gt;&lt;/span&gt; Rmpc es un cliente moderno y rápido para Music Player Daemon (MPD). Escrito en Rust, está diseñado para funcionar en la terminal (TUI) de sistemas Linux. Se caracteriza por ser altamente configurable, tener soporte para carátulas de álbumes y ofrecer una experiencia de navegación de tres columnas tipo ranger.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/rmpc-installation/feature.webp"/></item><item><title>bat - Dracula Theme</title><link>https://graplo.github.io/blog/bat-dracula-theme/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/bat-dracula-theme/</guid><description>&lt;ol&gt;
-&lt;li&gt;
-
-&lt;h2 class="relative group"&gt;Puedes ver los temas disponibles con:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Graplo</title><link>https://graplo.github.io/blog/</link><description>Recent content in Blog on Graplo</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>graplo@disroot.com (Graplo)</managingEditor><webMaster>graplo@disroot.com (Graplo)</webMaster><copyright>© 2026 Graplo</copyright><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://graplo.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>rmpc - instalación</title><link>https://graplo.github.io/blog/rmpc-installation/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/rmpc-installation/</guid><description>&lt;p&gt;&lt;span class="relative inline-block align-text-bottom icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M511.1 367.1c0 44.18-42.98 80-95.1 80s-95.1-35.82-95.1-79.1c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32.01 4.898V148.1L192 224l-.0023 208.1C191.1 476.2 149 512 95.1 512S0 476.2 0 432c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32 4.898V126.5c0-12.97 10.06-26.63 22.41-30.52l319.1-94.49C472.1 .6615 477.3 0 480 0c17.66 0 31.97 14.34 32 31.99L511.1 367.1z"/&gt;&lt;/svg&gt;&lt;/span&gt; Rmpc es un cliente moderno y rápido para Music Player Daemon (MPD). Escrito en Rust, está diseñado para funcionar en la terminal (TUI) de sistemas Linux. Se caracteriza por ser altamente configurable, tener soporte para carátulas de álbumes y ofrecer una experiencia de navegación de tres columnas tipo ranger.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/rmpc-installation/feature.webp"/></item><item><title>bat - Dracula Theme</title><link>https://graplo.github.io/blog/bat-dracula-theme/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/bat-dracula-theme/</guid><description>&lt;h2 class="relative group"&gt;Puedes ver los temas disponibles con:
  &lt;div id="puedes-ver-los-temas-disponibles-con" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -10,11 +7,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; bat --list-themes&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Y probar uno específico: En mi caso dracula
  &lt;div id="y-probar-uno-específico-en-mi-caso-dracula" class="anchor"&gt;&lt;/div&gt;
@@ -25,11 +18,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; bat --theme&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Dracula&amp;#34;&lt;/span&gt; ~/.config/fish/config.fish&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Para hacerlo permanete lo ponemos &lt;code&gt;~/.config/fish/config.fish&lt;/code&gt;
  &lt;div id="para-hacerlo-permanete-lo-ponemos-configfishconfigfish" class="anchor"&gt;&lt;/div&gt;
@@ -40,11 +29,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;set&lt;/span&gt; -Ux BAT_THEME Dracula&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Para saber cual theme esta en el momento
  &lt;div id="para-saber-cual-theme-esta-en-el-momento" class="anchor"&gt;&lt;/div&gt;
@@ -55,12 +40,8 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$BAT_THEME&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/bat-dracula-theme/feature.webp"/></item><item><title>Logseq - Dracula theme - arreglo</title><link>https://graplo.github.io/blog/logseq-dracula/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/logseq-dracula/</guid><description>&lt;p&gt;Logseq es una
-aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/logseq-dracula/feature.webp"/></item><item><title>Torrra - Primeros Pasos</title><link>https://graplo.github.io/blog/torrra-primeros-pasos/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/torrra-primeros-pasos/</guid><description>&lt;ul&gt;
-&lt;li&gt;TUI para buscar y descargar torrents desde la terminal, powered by Jackett.&lt;/li&gt;
-&lt;li&gt;
+aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/logseq-dracula/feature.webp"/></item><item><title>Torrra - Primeros Pasos</title><link>https://graplo.github.io/blog/torrra-primeros-pasos/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/torrra-primeros-pasos/</guid><description>&lt;p&gt;TUI para buscar y descargar torrents desde la terminal, powered by Jackett.&lt;/p&gt;
 
 &lt;h2 class="relative group"&gt;Instalación
  &lt;div id="instalación" class="anchor"&gt;&lt;/div&gt;
@@ -71,11 +52,8 @@ aplicación de toma de notas y gestión del conocimiento de código abierto, cen
  &lt;/span&gt;
  
 &lt;/h2&gt;
-logseq.order-list-type:: number
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S jackett-bin
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S torrra&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Configuración de torrra en ~/.config/torrra/config.toml:
  &lt;div id="configuración-de-torrra-en-configtorrraconfigtoml" class="anchor"&gt;&lt;/div&gt;
@@ -86,27 +64,24 @@ logseq.order-list-type:: number
  &lt;/span&gt;
  
 &lt;/h2&gt;
-logseq.order-list-type:: number
-&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;general&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;download_path&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;/home/graplo/Descargas&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;download_in_external_client&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;use_transmission&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;transmission_user&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;transmission_pass&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;theme&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;dracula&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;timeout&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;max_retries&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;use_cache&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;cache_ttl&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;indexers&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;default&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;jackett&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;indexers&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;jackett&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;http://localhost:9117&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;api_key&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;TU_API_KEY&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;general&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;download_path&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;/home/graplo/Descargas&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;download_in_external_client&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;use_transmission&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;transmission_user&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;transmission_pass&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;theme&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;dracula&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;timeout&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;max_retries&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;use_cache&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;cache_ttl&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;indexers&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;default&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;jackett&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;indexers&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;jackett&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;http://localhost:9117&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;api_key&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;TU_API_KEY&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 class="relative group"&gt;Iniciar Jackett
  &lt;div id="iniciar-jackett" class="anchor"&gt;&lt;/div&gt;
@@ -117,16 +92,18 @@ logseq.order-list-type:: number
  &lt;/span&gt;
  
 &lt;/h2&gt;
-logseq.order-list-type:: number
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl start jackett&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;si queremos parar el demonio jackett
-logseq.order-list-type:: number
+
+&lt;h3 class="relative group"&gt;si queremos parar el demonio jackett
+ &lt;div id="si-queremos-parar-el-demonio-jackett" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#si-queremos-parar-el-demonio-jackett" aria-label="Ancla"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl stop jackett&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Interfaz web de Jackett en http://localhost:9117:
  &lt;div id="interfaz-web-de-jackett-en-httplocalhost9117" class="anchor"&gt;&lt;/div&gt;
@@ -137,15 +114,10 @@ logseq.order-list-type:: number
  &lt;/span&gt;
  
 &lt;/h2&gt;
-logseq.order-list-type:: number
 &lt;ul&gt;
-&lt;li&gt;Copiar API key al config.toml
-logseq.order-list-type:: number&lt;/li&gt;
-&lt;li&gt;Agregar trackers (The Pirate Bay, YTS, etc.)
-logseq.order-list-type:: number&lt;/li&gt;
+&lt;li&gt;Copiar API key al &lt;code&gt;config.toml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Agregar trackers (The Pirate Bay, YTS, etc.)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Usar torrra
  &lt;div id="usar-torrra" class="anchor"&gt;&lt;/div&gt;
@@ -156,12 +128,9 @@ logseq.order-list-type:: number&lt;/li&gt;
  &lt;/span&gt;
  
 &lt;/h2&gt;
-logseq.order-list-type:: number
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;torrra&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
 
-&lt;h2 class="relative group"&gt;Alternativa para no escribir toda la palabra &lt;strong&gt;torrra&lt;/strong&gt;
+&lt;h3 class="relative group"&gt;Alternativa para no escribir toda la palabra &lt;strong&gt;torrra&lt;/strong&gt;
  &lt;div id="alternativa-para-no-escribir-toda-la-palabra-torrra" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -169,15 +138,7 @@ logseq.order-list-type:: number
  &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#alternativa-para-no-escribir-toda-la-palabra-torrra" aria-label="Ancla"&gt;#&lt;/a&gt;
  &lt;/span&gt;
  
-&lt;/h2&gt;
-logseq.order-list-type:: number
-&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;alias&lt;/span&gt; --save &lt;span class="nv"&gt;rrr&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;torrra&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Con eso solo se pone &lt;code&gt;rrr&lt;/code&gt; en la terminal:
-logseq.order-list-type:: number
-&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rrr&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;logseq.order-list-type:: number&lt;/li&gt;
-&lt;/ul&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/torrra-primeros-pasos/feature.webp"/></item></channel></rss>
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;alias&lt;/span&gt; &lt;span class="nv"&gt;rrr&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;torrra&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;funcsave rrr&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;&lt;p&gt;con funcsave es para que se quede el comando permanente.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/torrra-primeros-pasos/feature.webp"/></item></channel></rss>

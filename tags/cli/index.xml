@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CLI on Graplo</title><link>https://graplo.github.io/tags/cli/</link><description>Recent content in CLI on Graplo</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>graplo@disroot.com (Graplo)</managingEditor><webMaster>graplo@disroot.com (Graplo)</webMaster><copyright>© 2026 Graplo</copyright><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://graplo.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>bat - Dracula Theme</title><link>https://graplo.github.io/blog/bat-dracula-theme/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/bat-dracula-theme/</guid><description>&lt;ol&gt;
-&lt;li&gt;
-
-&lt;h2 class="relative group"&gt;Puedes ver los temas disponibles con:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CLI on Graplo</title><link>https://graplo.github.io/tags/cli/</link><description>Recent content in CLI on Graplo</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>graplo@disroot.com (Graplo)</managingEditor><webMaster>graplo@disroot.com (Graplo)</webMaster><copyright>© 2026 Graplo</copyright><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://graplo.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>bat - Dracula Theme</title><link>https://graplo.github.io/blog/bat-dracula-theme/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><author>graplo@disroot.com (Graplo)</author><guid>https://graplo.github.io/blog/bat-dracula-theme/</guid><description>&lt;h2 class="relative group"&gt;Puedes ver los temas disponibles con:
  &lt;div id="puedes-ver-los-temas-disponibles-con" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -10,11 +7,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; bat --list-themes&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Y probar uno específico: En mi caso dracula
  &lt;div id="y-probar-uno-específico-en-mi-caso-dracula" class="anchor"&gt;&lt;/div&gt;
@@ -25,11 +18,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; bat --theme&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Dracula&amp;#34;&lt;/span&gt; ~/.config/fish/config.fish&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Para hacerlo permanete lo ponemos &lt;code&gt;~/.config/fish/config.fish&lt;/code&gt;
  &lt;div id="para-hacerlo-permanete-lo-ponemos-configfishconfigfish" class="anchor"&gt;&lt;/div&gt;
@@ -40,11 +29,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;set&lt;/span&gt; -Ux BAT_THEME Dracula&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;
 
 &lt;h2 class="relative group"&gt;Para saber cual theme esta en el momento
  &lt;div id="para-saber-cual-theme-esta-en-el-momento" class="anchor"&gt;&lt;/div&gt;
@@ -55,6 +40,4 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$BAT_THEME&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/bat-dracula-theme/feature.webp"/></item></channel></rss>
