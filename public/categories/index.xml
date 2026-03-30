@@ -9,7 +9,17 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Sun, 29 Mar 2026 23:36:16 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Mar 2026 01:03:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cachyos</title>
+      <link>http://localhost:1313/categories/cachyos/</link>
+      <pubDate>Mon, 30 Mar 2026 01:03:00 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/categories/cachyos/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Software</title>

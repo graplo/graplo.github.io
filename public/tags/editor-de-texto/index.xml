@@ -17,8 +17,8 @@
       <pubDate>Sun, 29 Mar 2026 23:36:16 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/blog/helix-salto-de-linea/</guid>
-      <description>Evitar el Desplazamiento Horizontal</description>
-      
+      <description>&lt;p&gt;Helix es un editor de texto modal y moderno para terminal, escrito en Rust, diseñado para ser rápido y eficiente.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/helix-salto-de-linea/feature.webp" />
     </item>
     
   </channel>
