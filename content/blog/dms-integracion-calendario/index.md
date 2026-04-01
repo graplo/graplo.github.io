@@ -1,7 +1,7 @@
 ---
 title: "Dms Integracion con Calendario"
 date: 2026-03-30T16:18:05-05:00
-draft: true
+draft: false
 summary: "Sincroniza tu calendario de Disroot con tu panel de DMS, sin bases de datos duplicadas."
 tags: ["linux", "open source", "CLI"]
 categories: ["DMS"]

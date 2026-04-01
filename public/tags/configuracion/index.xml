@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuracion on Graplo</title>
+    <link>http://localhost:1313/tags/configuracion/</link>
+    <description>Recent content in Configuracion on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <atom:link href="http://localhost:1313/tags/configuracion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Khal Dracula</title>
+      <link>http://localhost:1313/projects/khal-dracula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/projects/khal-dracula/</guid>
+      <description>Theme Dracula para khal con soporte hex</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/khal-dracula/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

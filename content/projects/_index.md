@@ -8,4 +8,3 @@ cascade:
 {{< lead >}}
 Música generada con IA, fotografía callejera, diseño en Inkscape y contribuciones al open source.
 {{< /lead >}}
-```
