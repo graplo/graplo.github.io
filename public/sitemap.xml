@@ -63,6 +63,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/projects/claude-code-buddies/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/author/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

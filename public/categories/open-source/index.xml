@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proyectos on Graplo</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Proyectos on Graplo</description>
+    <title>Open Source on Graplo</title>
+    <link>http://localhost:1313/categories/open-source/</link>
+    <description>Recent content in Open Source on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Claude Code Buddies en WebM</title>
+      <title>Claude Code Buddies</title>
       <link>http://localhost:1313/projects/claude-code-buddies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/projects/claude-code-buddies/</guid>
       <description>&lt;p&gt;El 1 de abril de 2026 Anthropic lanzó una sorpresa escondida en Claude Code — un sistema de mascotas virtuales llamado &lt;code&gt;/buddy&lt;/code&gt;. Por un error accidental, el código fuente de Claude Code se filtró en npm un día antes, y la comunidad encontró rápidamente la carpeta &lt;code&gt;src/buddy/&lt;/code&gt; con todos los sprites ASCII de los 18 animales.&lt;/p&gt;</description>
       
-    </item>
-    
-    <item>
-      <title>Khal Dracula</title>
-      <link>http://localhost:1313/projects/khal-dracula/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/projects/khal-dracula/</guid>
-      <description>Theme Dracula para khal con soporte hex</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/khal-dracula/feature.webp" />
     </item>
     
   </channel>
