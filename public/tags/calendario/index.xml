@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calendario on Graplo</title>
-    <link>http://localhost:1313/tags/calendario/</link>
+    <link>http://localhost:33025/tags/calendario/</link>
     <description>Recent content in Calendario on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Tue, 31 Mar 2026 20:28:34 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/calendario/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2026 20:28:34 -0500</lastBuildDate><atom:link href="http://localhost:33025/tags/calendario/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Khal Feriados Peru</title>
-      <link>http://localhost:1313/blog/khal-feriados-peru/</link>
+      <link>http://localhost:33025/blog/khal-feriados-peru/</link>
       <pubDate>Tue, 31 Mar 2026 20:28:34 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/blog/khal-feriados-peru/</guid>
+      <guid>http://localhost:33025/blog/khal-feriados-peru/</guid>
       <description>Calendario de feriados en Khal</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/khal-feriados-peru/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:33025/blog/khal-feriados-peru/feature.webp" />
     </item>
     
   </channel>
