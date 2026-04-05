@@ -4,4 +4,5 @@ draft: true
 summary: ""
 tags: []
 showDate: false
+categories: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Automatizar backups con Borg desde la terminal"
-draft: true
+draft: false
 summary: "Del comando largo que nunca recordás al script que corre solo. Cómo automatizar tus backups con Borg."
 tags: ["linux", "borg", "backup", "bash", "terminal"]
 categories: ["Terminal", "Homelab"]
