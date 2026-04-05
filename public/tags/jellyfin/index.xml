@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jellyfin on Graplo</title>
+    <link>http://localhost:1313/tags/jellyfin/</link>
+    <description>Recent content in Jellyfin on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Sat, 04 Apr 2026 20:53:51 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jellyfin Puerto Bloqueado Cachyos</title>
+      <link>http://localhost:1313/blog/jellyfin-puerto-bloqueado-cachyos/</link>
+      <pubDate>Sat, 04 Apr 2026 20:53:51 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/jellyfin-puerto-bloqueado-cachyos/</guid>
+      <description>Jellyfin funciona pero no es accesible desde la red local. El problema no es Jellyfin, es el firewall.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/jellyfin-puerto-bloqueado-cachyos/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>
