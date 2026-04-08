@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Graplo</title>
-    <link>http://localhost:33025/categories/software/</link>
+    <link>http://localhost:1313/categories/software/</link>
     <description>Recent content in Software on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Sun, 29 Mar 2026 23:36:16 -0500</lastBuildDate><atom:link href="http://localhost:33025/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Mar 2026 23:36:16 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Helix -  Salto De Linea</title>
-      <link>http://localhost:33025/blog/helix-salto-de-linea/</link>
+      <link>http://localhost:1313/blog/helix-salto-de-linea/</link>
       <pubDate>Sun, 29 Mar 2026 23:36:16 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:33025/blog/helix-salto-de-linea/</guid>
+      <guid>http://localhost:1313/blog/helix-salto-de-linea/</guid>
       <description>&lt;p&gt;Helix es un editor de texto modal y moderno para terminal, escrito en Rust, diseñado para ser rápido y eficiente.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:33025/blog/helix-salto-de-linea/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/helix-salto-de-linea/feature.webp" />
     </item>
     
     <item>
       <title>Logseq - Dracula theme - arreglo</title>
-      <link>http://localhost:33025/blog/logseq-dracula/</link>
+      <link>http://localhost:1313/blog/logseq-dracula/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:33025/blog/logseq-dracula/</guid>
+      <guid>http://localhost:1313/blog/logseq-dracula/</guid>
       <description>&lt;p&gt;Logseq es una&#xA;aplicación de toma de notas y gestión del conocimiento de código abierto, centrada en la privacidad, que funciona sobre archivos locales de texto plano (Markdown o Org-mode). Destaca por su sistema de enlaces bidireccionales, lo que permite conectar ideas y visualizar relaciones entre notas en forma de grafo.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:33025/blog/logseq-dracula/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/logseq-dracula/feature.webp" />
     </item>
     
   </channel>

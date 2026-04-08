@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DMS on Graplo</title>
-    <link>http://localhost:33025/categories/dms/</link>
+    <link>http://localhost:1313/categories/dms/</link>
     <description>Recent content in DMS on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Mon, 30 Mar 2026 16:18:05 -0500</lastBuildDate><atom:link href="http://localhost:33025/categories/dms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Mar 2026 16:18:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/dms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dms Integracion con Calendario</title>
-      <link>http://localhost:33025/blog/dms-integracion-calendario/</link>
+      <link>http://localhost:1313/blog/dms-integracion-calendario/</link>
       <pubDate>Mon, 30 Mar 2026 16:18:05 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:33025/blog/dms-integracion-calendario/</guid>
+      <guid>http://localhost:1313/blog/dms-integracion-calendario/</guid>
       <description>&lt;p&gt;Khal es un programa de calendario basado en la terminal (CLI) para sistemas operativos tipo Unix (Linux, macOS), diseñado para ser ligero, rápido y compatible con estándares iCalendar.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:33025/blog/dms-integracion-calendario/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/dms-integracion-calendario/feature.webp" />
     </item>
     
   </channel>
