@@ -2,6 +2,7 @@
 title: "Cargo: instalar y gestionar programas escritos en Rust"
 date: 2026-04-06T19:51:38-05:00
 draft: false
+description: "Cómo instalar, actualizar y gestionar programas escritos en Rust usando Cargo y crates.io."
 summary: "Cargo es el gestor de paquetes de Rust. Con él podés instalar programas de la comunidad directamente desde crates.io, sin repositorios ni PPAs."
 tags: ["linux", "rust", "cargo", "terminal", "cli"]
 categories: ["Terminal"]
