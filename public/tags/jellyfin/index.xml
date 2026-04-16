@@ -9,7 +9,27 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 20:53:51 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 00:02:58 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migrando Jellyfin de podman run a podman-compose</title>
+      <link>http://localhost:1313/blog/migrando-jellyfin-a-podman-compose/</link>
+      <pubDate>Wed, 15 Apr 2026 00:02:58 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/migrando-jellyfin-a-podman-compose/</guid>
+      <description>Cómo migrar Jellyfin de un podman run directo a podman-compose, incluyendo el compose.yml, una función Fish para arrancar y apagar con un solo comando, y el flujo para actualizar la imagen sin perder configuración.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/migrando-jellyfin-a-podman-compose/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Jellyfin con Podman en CachyOS</title>
+      <link>http://localhost:1313/blog/jellyfin-podman-cachyos/</link>
+      <pubDate>Wed, 08 Apr 2026 21:49:16 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/jellyfin-podman-cachyos/</guid>
+      <description>Podman permite correr Jellyfin como contenedor bajo demanda, sin demonio ni servicios activos. Más ligero que el Flatpak y fácil de actualizar.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/jellyfin-podman-cachyos/feature.webp" />
+    </item>
     
     <item>
       <title>Jellyfin Puerto Bloqueado Cachyos</title>

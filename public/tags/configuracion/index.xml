@@ -9,7 +9,17 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <atom:link href="http://localhost:1313/tags/configuracion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 23:34:28 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/configuracion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Soft-wrap en Helix: adiós al scroll horizontal</title>
+      <link>http://localhost:1313/blog/soft-wrap-en-helix/</link>
+      <pubDate>Wed, 15 Apr 2026 23:34:28 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/soft-wrap-en-helix/</guid>
+      <description>Una configuración mínima en Helix que hace que las líneas largas salten solas al borde de la ventana, sin tocar el archivo.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/soft-wrap-en-helix/feature.webp" />
+    </item>
     
     <item>
       <title>Khal Dracula</title>

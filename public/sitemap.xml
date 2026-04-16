@@ -4,18 +4,42 @@
 
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-04-06T19:51:38-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/blog/rust-bases-comandos/</loc>
-    <lastmod>2026-04-06T19:51:38-05:00</lastmod>
+    <lastmod>2026-04-15T23:34:28-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-15T23:34:28-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/soft-wrap-en-helix/</loc>
+    <lastmod>2026-04-15T23:34:28-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/migrando-jellyfin-a-podman-compose/</loc>
+    <lastmod>2026-04-15T00:02:58-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/jellyfin-podman-cachyos/</loc>
+    <lastmod>2026-04-08T21:49:16-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/imagemagick-basic-comands-example/</loc>
+    <lastmod>2026-04-07T20:01:05-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/rust-bases-comandos/</loc>
     <lastmod>2026-04-06T19:51:38-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

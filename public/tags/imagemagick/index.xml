@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImageMagick on Graplo</title>
+    <link>http://localhost:1313/tags/imagemagick/</link>
+    <description>Recent content in ImageMagick on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Tue, 07 Apr 2026 20:01:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/imagemagick/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Imagemagick Basic Comands Example</title>
+      <link>http://localhost:1313/blog/imagemagick-basic-comands-example/</link>
+      <pubDate>Tue, 07 Apr 2026 20:01:05 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/imagemagick-basic-comands-example/</guid>
+      <description>Usando el comando magik, en una situación real. De paso repasamos algunos q son interesantes</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/imagemagick-basic-comands-example/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>
