@@ -1,7 +1,7 @@
 ---
 title: "Migrando Jellyfin de podman run a podman-compose"
 date: 2026-04-15T00:02:58-05:00
-draft: true
+draft: false
 summary: "Cómo migrar Jellyfin de un podman run directo a podman-compose, incluyendo el compose.yml, una función Fish para arrancar y apagar con un solo comando, y el flujo para actualizar la imagen sin perder configuración."
 description: "Los contenedores de Podman son inmutables — si querés cambiar un volumen o puerto tenés que recrearlo desde cero. Migré Jellyfin a podman-compose para tener toda la configuración en un archivo YAML editable, más fácil de mantener y documentar."
 tags: ["podman", "jellyfin", "self-hosting", "linux", "containers"]
