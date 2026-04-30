@@ -9,7 +9,17 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Wed, 15 Apr 2026 23:34:28 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2026 12:41:32 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Aplicar tema Dracula en CAVA</title>
+      <link>http://localhost:1313/blog/cava-dracula/</link>
+      <pubDate>Wed, 29 Apr 2026 12:41:32 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/cava-dracula/</guid>
+      <description>CAVA permite cargar temas de color desde archivos externos. Con un solo ajuste en el config se puede aplicar Dracula sin tocar los colores manualmente.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/cava-dracula/feature.webp" />
+    </item>
     
     <item>
       <title>Soft-wrap en Helix: adiós al scroll horizontal</title>
