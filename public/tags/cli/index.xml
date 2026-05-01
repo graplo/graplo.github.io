@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cli on Graplo</title>
+    <title>CLI on Graplo</title>
     <link>http://localhost:1313/tags/cli/</link>
-    <description>Recent content in Cli on Graplo</description>
+    <description>Recent content in CLI on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Wed, 29 Apr 2026 12:41:32 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Apr 2026 22:41:31 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CAVA con micrófono en PipeWire</title>
+      <link>http://localhost:1313/blog/cava-visual-mic/</link>
+      <pubDate>Thu, 30 Apr 2026 22:41:31 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/cava-visual-mic/</guid>
+      <description>CAVA puede visualizar el audio del micrófono además del audio de salida. Con PipeWire y EasyEffects es sencillo configurarlo en un archivo de config separado.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/cava-visual-mic/feature.webp" />
+    </item>
     
     <item>
       <title>Aplicar tema Dracula en CAVA</title>

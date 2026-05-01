@@ -1,7 +1,7 @@
 ---
 title: "CAVA con micrófono en PipeWire"
 date: 2026-04-30T22:41:31-05:00
-draft: true
+draft: false
 summary: "CAVA puede visualizar el audio del micrófono además del audio de salida. Con PipeWire y EasyEffects es sencillo configurarlo en un archivo de config separado."
 description: "Cómo configurar CAVA para capturar el micrófono usando PipeWire y EasyEffects en CachyOS."
 tags: ["linux", "cava", "pipewire", "easyeffects", "audio", "cli"]
