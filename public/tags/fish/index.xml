@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fish on Graplo</title>
+    <link>http://localhost:1313/tags/fish/</link>
+    <description>Recent content in Fish on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Sun, 03 May 2026 17:36:13 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Neo-matrix: La lluvia digital de Matrix en tu terminal</title>
+      <link>http://localhost:1313/blog/neo-matrix/</link>
+      <pubDate>Sun, 03 May 2026 17:36:13 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/neo-matrix/</guid>
+      <description>neo-matrix recrea el efecto de lluvia digital de The Matrix en la terminal, con colores personalizables, mensajes y decenas de opciones para ajustarlo a tu gusto.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/neo-matrix/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

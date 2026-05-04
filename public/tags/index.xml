@@ -9,7 +9,107 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Thu, 30 Apr 2026 22:41:31 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2026 21:47:08 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CLI</title>
+      <link>http://localhost:1313/tags/cli/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Niri</title>
+      <link>http://localhost:1313/tags/niri/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/niri/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Obs</title>
+      <link>http://localhost:1313/tags/obs/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/obs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Streaming</title>
+      <link>http://localhost:1313/tags/streaming/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/streaming/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wayland</title>
+      <link>http://localhost:1313/tags/wayland/</link>
+      <pubDate>Sun, 03 May 2026 21:47:08 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/wayland/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fish</title>
+      <link>http://localhost:1313/tags/fish/</link>
+      <pubDate>Sun, 03 May 2026 17:36:13 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/fish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Matrix</title>
+      <link>http://localhost:1313/tags/matrix/</link>
+      <pubDate>Sun, 03 May 2026 17:36:13 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/matrix/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rice</title>
+      <link>http://localhost:1313/tags/rice/</link>
+      <pubDate>Sun, 03 May 2026 17:36:13 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/rice/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
+      <pubDate>Sun, 03 May 2026 17:36:13 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/terminal/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Audio</title>
@@ -32,31 +132,11 @@
     </item>
     
     <item>
-      <title>CLI</title>
-      <link>http://localhost:1313/tags/cli/</link>
-      <pubDate>Thu, 30 Apr 2026 22:41:31 -0500</pubDate>
-      <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/tags/cli/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Easyeffects</title>
       <link>http://localhost:1313/tags/easyeffects/</link>
       <pubDate>Thu, 30 Apr 2026 22:41:31 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/easyeffects/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Thu, 30 Apr 2026 22:41:31 -0500</pubDate>
-      <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -77,16 +157,6 @@
       <pubDate>Wed, 29 Apr 2026 12:41:32 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/dracula/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Rice</title>
-      <link>http://localhost:1313/tags/rice/</link>
-      <pubDate>Wed, 29 Apr 2026 12:41:32 -0500</pubDate>
-      <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/tags/rice/</guid>
       <description></description>
       
     </item>
@@ -117,16 +187,6 @@
       <pubDate>Wed, 15 Apr 2026 23:34:28 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/helix/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>http://localhost:1313/tags/terminal/</link>
-      <pubDate>Wed, 15 Apr 2026 23:34:28 -0500</pubDate>
-      <author>graplo@disroot.com (Graplo)</author>
-      <guid>http://localhost:1313/tags/terminal/</guid>
       <description></description>
       
     </item>
@@ -252,7 +312,7 @@
     </item>
     
     <item>
-      <title>Open-Source</title>
+      <title>Open Source</title>
       <link>http://localhost:1313/tags/open-source/</link>
       <pubDate>Mon, 30 Mar 2026 16:18:05 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
