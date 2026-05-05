@@ -1,7 +1,7 @@
 ---
 title: "Cambiar escenas de OBS con Niri"
 date: 2026-05-03T21:47:08-05:00
-draft: true
+draft: false
 summary: "En Wayland los atajos globales no funcionan como en X11. Con gobs-cli y el WebSocket de OBS podemos cambiar escenas desde cualquier app, sin tener OBS en foco."
 description: "Cómo configurar atajos globales para cambiar escenas de OBS en niri usando gobs-cli y el WebSocket de OBS."
 tags: ["linux", "obs", "niri", "wayland", "cli", "streaming"]
