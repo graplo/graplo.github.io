@@ -61,6 +61,33 @@ F3 hotkey-overlay-title="OBS: Cam Circular" { spawn "sh" "-c" "gobs-cli -p \"tu-
 
 Si usas Hyprland la sintaxis del atajo es diferente pero el comando `gobs-cli` es exactamente el mismo
 
+## Actualización: Contraseña en archivo de configuración (2026-05-07)
+
+`gobs-cli` soporta cargar las credenciales desde un archivo de entorno, evitando poner la contraseña directamente en el `binds.kdl`.
+
+Crea el archivo de configuración:
+
+```bash
+mkdir -p ~/.config/gobs-cli
+helix ~/.config/gobs-cli/config.env
+```
+
+Con este contenido:
+
+```
+OBS_HOST=localhost
+OBS_PORT=4455
+OBS_PASSWORD=tu-contraseña
+OBS_TIMEOUT=5
+```
+A partir de ahí los comandos en `binds.kdl` quedan limpios sin exponer la contraseña:
+
+```kdl
+F1 hotkey-overlay-title="OBS: Full Camera" { spawn "sh" "-c" "gobs-cli sc sw \"1 Full camera\""; }
+```
+
+> Útil si tienes tu configuración de niri en un repositorio público — la contraseña queda en un archivo local que no subes a git.
+
 ## Resultado
 
 Desde cualquier app, sin importar cuál esté en foco, F1, F2 y F3 cambian la escena activa en OBS al instante.
