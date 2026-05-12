@@ -27,7 +27,7 @@ sudo dnf install starship
 **Ubuntu / Debian:**
 
 ```bash
-curl -sS https://starship.rs/install.sh | sh
+sudo apt install starship
 ```
 
 **Script universal** (funciona en cualquier distro):
@@ -305,3 +305,7 @@ style = "fg:comment"
 El problema es que `$style` no toma el color definido. Para corregirlo asegúrate de que el formato y el estilo estén correctamente referenciados — puedes verificarlo comparando con otro preset funcional como Catppuccin y ajustando manualmente los colores de tu paleta Dracula.
 
 > Este bug fue reportado a la comunidad — si al momento de leer esto ya está corregido en el preset oficial, puedes ignorar esta nota.
+
+## Video: De mi canal de YouTube:
+
+{{< youtube 0KdGwFs2EcA >}}

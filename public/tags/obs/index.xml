@@ -18,7 +18,7 @@
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/blog/obs-wayland-niri-solution/</guid>
       <description>En Wayland los atajos globales no funcionan como en X11. Con gobs-cli y el WebSocket de OBS podemos cambiar escenas desde cualquier app, sin tener OBS en foco.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/obs-wayland-niri-solution/feature.webp" />
     </item>
     
   </channel>

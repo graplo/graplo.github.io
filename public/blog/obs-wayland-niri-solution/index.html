@@ -73,9 +73,11 @@
     <meta property="article:tag" content="Wayland">
     <meta property="article:tag" content="CLI">
     <meta property="article:tag" content="Streaming">
+    <meta property="og:image" content="http://localhost:1313/blog/obs-wayland-niri-solution/feature.webp">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/obs-wayland-niri-solution/feature.webp">
   <meta name="twitter:title" content="Cambiar escenas de OBS con Niri">
   <meta name="twitter:description" content="Cómo configurar atajos globales para cambiar escenas de OBS en niri usando gobs-cli y el WebSocket de OBS.">
 
@@ -250,7 +252,7 @@
     "keywords": ["linux","obs","niri","wayland","cli","streaming"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "428"
+    "wordCount": "524"
   }]
   </script>
 
@@ -544,16 +546,34 @@
 
 
 
-  
-  
-
 
 
 
   
+    
+    
+      
+      
+    
+  
 
 
 
+
+  
+  
+  
+  <figure>
+    <img
+      src="/blog/obs-wayland-niri-solution/feature_hu_3b08a5bb6d05c5c0.webp"
+      alt="Cambiar escenas de OBS con Niri"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="w-full rounded-lg single_hero_round nozoom"
+      >
+    
+  </figure>
 
 
       
@@ -615,18 +635,10 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-05-03T21:47:08-05:00">3 mayo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>428 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">3 mins</span>
+      <time datetime="2026-05-03T21:47:08-05:00">3 mayo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>524 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">3 mins</span>
     
 
     
-    
-      <span class="ps-2"><span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Borrador
-  </span>
-</span>
-</span>
     
   </div>
 
@@ -870,6 +882,7 @@
     <li><a href="#activar-el-websocket-en-obs">Activar el WebSocket en OBS</a></li>
     <li><a href="#probar-la-conexión">Probar la conexión</a></li>
     <li><a href="#configurar-los-atajos-en-niri">Configurar los atajos en niri</a></li>
+    <li><a href="#actualización-contraseña-en-archivo-de-configuración-2026-05-07">Actualización: Contraseña en archivo de configuración (2026-05-07)</a></li>
     <li><a href="#resultado">Resultado</a></li>
   </ul>
 </nav>
@@ -888,6 +901,7 @@
     <li><a href="#activar-el-websocket-en-obs">Activar el WebSocket en OBS</a></li>
     <li><a href="#probar-la-conexión">Probar la conexión</a></li>
     <li><a href="#configurar-los-atajos-en-niri">Configurar los atajos en niri</a></li>
+    <li><a href="#actualización-contraseña-en-archivo-de-configuración-2026-05-07">Actualización: Contraseña en archivo de configuración (2026-05-07)</a></li>
     <li><a href="#resultado">Resultado</a></li>
   </ul>
 </nav>
@@ -970,6 +984,28 @@
 <blockquote><p>Sustituye <code>tu-contraseña</code> por tu contraseña real del WebSocket. Sustituye los nombres de escena por los tuyos. Las teclas F1, F2, F3 también puedes cambiarlas por cualquier combinación que prefieras.</p>
 </blockquote><p>Si usas Hyprland la sintaxis del atajo es diferente pero el comando <code>gobs-cli</code> es exactamente el mismo</p>
 
+<h2 class="relative group">Actualización: Contraseña en archivo de configuración (2026-05-07)
+    <div id="actualización-contraseña-en-archivo-de-configuración-2026-05-07" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#actualizaci%c3%b3n-contrase%c3%b1a-en-archivo-de-configuraci%c3%b3n-2026-05-07" aria-label="Ancla">#</a>
+    </span>
+    
+</h2>
+<p><code>gobs-cli</code> soporta cargar las credenciales desde un archivo de entorno, evitando poner la contraseña directamente en el <code>binds.kdl</code>.</p>
+<p>Crea el archivo de configuración:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p ~/.config/gobs-cli
+</span></span><span class="line"><span class="cl">helix ~/.config/gobs-cli/config.env</span></span></code></pre></div></div>
+<p>Con este contenido:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">OBS_HOST=localhost
+</span></span><span class="line"><span class="cl">OBS_PORT=4455
+</span></span><span class="line"><span class="cl">OBS_PASSWORD=tu-contraseña
+</span></span><span class="line"><span class="cl">OBS_TIMEOUT=5</span></span></code></pre></div></div>
+<p>A partir de ahí los comandos en <code>binds.kdl</code> quedan limpios sin exponer la contraseña:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kdl" data-lang="kdl"><span class="line"><span class="cl"><span class="nl">F1</span><span class="w"> </span><span class="na">hotkey-overlay-title=</span><span class="s">&#34;OBS: Full Camera&#34;</span><span class="w"> </span><span class="o">{</span><span class="nl"> spawn</span><span class="w"> </span><span class="s">&#34;sh&#34;</span><span class="w"> </span><span class="s">&#34;-c&#34;</span><span class="w"> </span><span class="s">&#34;gobs-cli sc sw </span><span class="se">\&#34;</span><span class="s">1 Full camera</span><span class="se">\&#34;</span><span class="s">&#34;</span><span class="o">;</span><span class="w"> </span><span class="o">}</span></span></span></code></pre></div></div>
+<blockquote><p>Útil si tienes tu configuración de niri en un repositorio público — la contraseña queda en un archivo local que no subes a git.</p>
+</blockquote>
 <h2 class="relative group">Resultado
     <div id="resultado" class="anchor"></div>
     

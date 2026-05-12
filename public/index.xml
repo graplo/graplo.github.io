@@ -18,7 +18,7 @@
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/blog/obs-wayland-niri-solution/</guid>
       <description>En Wayland los atajos globales no funcionan como en X11. Con gobs-cli y el WebSocket de OBS podemos cambiar escenas desde cualquier app, sin tener OBS en foco.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/obs-wayland-niri-solution/feature.webp" />
     </item>
     
     <item>
@@ -219,6 +219,16 @@
       <guid>http://localhost:1313/projects/khal-dracula/</guid>
       <description>Theme Dracula para khal con soporte hex</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/khal-dracula/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Starship: Personaliza tu prompt de terminal</title>
+      <link>http://localhost:1313/projects/starship-personaliza-prompt-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/projects/starship-personaliza-prompt-terminal/</guid>
+      <description>Starship es un prompt rápido, minimalista y altamente personalizable escrito en Rust. Compatible con casi cualquier shell y distro.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/starship-personaliza-prompt-terminal/feature.webp" />
     </item>
     
   </channel>
