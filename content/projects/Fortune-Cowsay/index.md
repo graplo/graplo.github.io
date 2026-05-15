@@ -1,6 +1,6 @@
 ---
 title: "Fortune y Cowsay en Linux con Fish Shell"
-draft: true
+draft: false
 summary: "fortune y cowsay son utilidades clásicas de Unix que combinadas muestran frases aleatorias con personajes ASCII. Con Fish Shell puedes automatizarlo en un comando."
 tags: ["linux", "terminal", "fish", "cli", "rice"]
 showDate: false
