@@ -16,6 +16,7 @@ categories: ["Terminal"]
 
 ```bash
 sudo pacman -S fortune-mod cowsay
+paru -S fortune-mod-es
 ```
 
 Los paquetes instalados son `fortune-mod` (programa principal) y `cowsay` (muestra texto en globos con personajes ASCII).
@@ -25,8 +26,19 @@ Los paquetes instalados son `fortune-mod` (programa principal) y `cowsay` (muest
 ### Debian / Ubuntu
 
 ```bash
-sudo apt install fortune fortunes-es cowsay
+curl -sL https://swee.codes/repo.sh | sudo bash
+sudo apt install fortune-mod-shlomif
 ```
+
+> Parece q para cowsay hay q compilar pero no estoy seguro para mas info https://github.com/cowsay-org/cowsay
+    
+### Fedora
+
+```bash
+sudo dnf install fortune-mod
+```
+> Parece q para cowsay hay q compilar pero no estoy seguro para mas info https://github.com/cowsay-org/cowsay pero seguro que algun *copr* para ello
+
 
 ## Primeros pasos con Fortune
 
@@ -215,3 +227,6 @@ O la versión simple:
 ```fish
 fortune | cowsay
 ```
+## Youtube
+
+{{< youtube ODigJuqdZl4 >}}
