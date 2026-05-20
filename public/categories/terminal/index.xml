@@ -9,7 +9,17 @@
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
     <webMaster>graplo@disroot.com (Graplo)</webMaster>
     <copyright>© 2026 Graplo</copyright>
-    <lastBuildDate>Sun, 03 May 2026 21:47:08 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 20:44:36 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PyRadio: radio en tu terminal con estilo</title>
+      <link>http://localhost:1313/blog/pyradio-basic-dracula/</link>
+      <pubDate>Tue, 19 May 2026 20:44:36 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/pyradio-basic-dracula/</guid>
+      <description>Cómo instalar PyRadio, agregar tus emisoras favoritas y personalizarlo con temas Dracula desde la terminal.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/pyradio-basic-dracula/feature.webp" />
+    </item>
     
     <item>
       <title>Cambiar escenas de OBS con Niri</title>

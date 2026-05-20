@@ -15,20 +15,20 @@
 
   
   
-    <title>Torrra - Primeros Pasos &middot; Graplo</title>
-    <meta name="title" content="Torrra - Primeros Pasos &middot; Graplo">
+    <title>PyRadio: radio en tu terminal con estilo &middot; Graplo</title>
+    <meta name="title" content="PyRadio: radio en tu terminal con estilo &middot; Graplo">
   
 
   
   
-    <meta name="description" content="Linux, terminal y open source desde Lima.">
+    <meta name="description" content="Cómo instalar PyRadio, agregar tus emisoras favoritas y personalizarlo con temas Dracula desde la terminal.">
   
   
-    <meta name="keywords" content="linux,TUI,torrent,open source,">
+    <meta name="keywords" content="linux,terminal,audio,tui,dracula,">
   
   
   
-  <link rel="canonical" href="http://localhost:1313/blog/torrra-primeros-pasos/">
+  <link rel="canonical" href="http://localhost:1313/blog/pyradio-basic-dracula/">
   
 
   
@@ -58,28 +58,27 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/blog/torrra-primeros-pasos/">
+  <meta property="og:url" content="http://localhost:1313/blog/pyradio-basic-dracula/">
   <meta property="og:site_name" content="Graplo">
-  <meta property="og:title" content="Torrra - Primeros Pasos">
-  <meta property="og:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett.
-Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # sudo systemctl start jackett si queremos parar el demonio jackett # sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # Copiar API key al config.toml Agregar trackers (The Pirate Bay, YTS, etc.) Usar torrra # torrra Alternativa para no escribir toda la palabra torrra # alias rrr=&#34;torrra&#34; funcsave rrr con funcsave es para que se quede el comando permanente.">
+  <meta property="og:title" content="PyRadio: radio en tu terminal con estilo">
+  <meta property="og:description" content="Guía práctica de PyRadio en CachyOS: instalación, agregar emisoras desde RadioBrowser o URL directa, atajos esenciales y cómo aplicar temas.">
   <meta property="og:locale" content="es">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2026-03-25T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-03-25T00:00:00+00:00">
+    <meta property="article:published_time" content="2026-05-19T20:44:36-05:00">
+    <meta property="article:modified_time" content="2026-05-19T20:44:36-05:00">
     <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Terminal">
+    <meta property="article:tag" content="Audio">
     <meta property="article:tag" content="TUI">
-    <meta property="article:tag" content="Torrent">
-    <meta property="article:tag" content="Open-Source">
-    <meta property="og:image" content="http://localhost:1313/blog/torrra-primeros-pasos/feature.webp">
+    <meta property="article:tag" content="Dracula">
+    <meta property="og:image" content="http://localhost:1313/blog/pyradio-basic-dracula/feature.webp">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/blog/torrra-primeros-pasos/feature.webp">
-  <meta name="twitter:title" content="Torrra - Primeros Pasos">
-  <meta name="twitter:description" content="TUI para buscar y descargar torrents desde la terminal, powered by Jackett.
-Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/.config/torrra/config.toml: # [general] download_path = &#34;/home/graplo/Descargas&#34; download_in_external_client = false use_transmission = false transmission_user = &#34;&#34; transmission_pass = &#34;&#34; theme = &#34;dracula&#34; timeout = 10 max_retries = 3 use_cache = true cache_ttl = 300 [indexers] default = &#34;jackett&#34; [indexers.jackett] url = &#34;http://localhost:9117&#34; api_key = &#34;TU_API_KEY&#34; Iniciar Jackett # sudo systemctl start jackett si queremos parar el demonio jackett # sudo systemctl stop jackett Interfaz web de Jackett en http://localhost:9117: # Copiar API key al config.toml Agregar trackers (The Pirate Bay, YTS, etc.) Usar torrra # torrra Alternativa para no escribir toda la palabra torrra # alias rrr=&#34;torrra&#34; funcsave rrr con funcsave es para que se quede el comando permanente.">
+  <meta name="twitter:image" content="http://localhost:1313/blog/pyradio-basic-dracula/feature.webp">
+  <meta name="twitter:title" content="PyRadio: radio en tu terminal con estilo">
+  <meta name="twitter:description" content="Guía práctica de PyRadio en CachyOS: instalación, agregar emisoras desde RadioBrowser o URL directa, atajos esenciales y cómo aplicar temas.">
 
   
   
@@ -234,25 +233,25 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Torrra - Primeros Pasos",
-    "headline": "Torrra - Primeros Pasos",
-    
+    "name": "PyRadio: radio en tu terminal con estilo",
+    "headline": "PyRadio: radio en tu terminal con estilo",
+    "description": "Guía práctica de PyRadio en CachyOS: instalación, agregar emisoras desde RadioBrowser o URL directa, atajos esenciales y cómo aplicar temas.",
     "inLanguage": "es",
-    "url" : "http://localhost:1313/blog/torrra-primeros-pasos/",
+    "url" : "http://localhost:1313/blog/pyradio-basic-dracula/",
     "author" : {
       "@type": "Person",
       "name": "Graplo"
     },
     "copyrightYear": "2026",
-    "dateCreated": "2026-03-25T00:00:00\u002b00:00",
-    "datePublished": "2026-03-25T00:00:00\u002b00:00",
+    "dateCreated": "2026-05-19T20:44:36-05:00",
+    "datePublished": "2026-05-19T20:44:36-05:00",
     
-    "dateModified": "2026-03-25T00:00:00\u002b00:00",
+    "dateModified": "2026-05-19T20:44:36-05:00",
     
-    "keywords": ["linux","TUI","torrent","open source"],
+    "keywords": ["linux","terminal","audio","tui","dracula"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "143"
+    "wordCount": "644"
   }]
   </script>
 
@@ -565,8 +564,8 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
   
   <figure>
     <img
-      src="/blog/torrra-primeros-pasos/feature_hu_baea83b65ad81e0f.webp"
-      alt="Torrra - Primeros Pasos"
+      src="/blog/pyradio-basic-dracula/feature_hu_8216541f5af10723.webp"
+      alt="PyRadio: radio en tu terminal con estilo"
       loading="eager"
       decoding="async"
       fetchpriority="high"
@@ -583,7 +582,7 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Torrra - Primeros Pasos
+        PyRadio: radio en tu terminal con estilo
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -635,7 +634,7 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>143 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">1 min</span>
+      <time datetime="2026-05-19T20:44:36-05:00">19 mayo 2026</time><span class="px-2 text-primary-500">&middot;</span><span>644 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">4 mins</span>
     
 
     
@@ -681,6 +680,26 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
 
               </a>
             
+              <a class="relative mt-[0.5rem] me-2" href="/tags/terminal/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Terminal
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/audio/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Audio
+  </span>
+</span>
+
+              </a>
+            
               <a class="relative mt-[0.5rem] me-2" href="/tags/tui/">
                 <span class="flex cursor-pointer">
   <span
@@ -691,21 +710,11 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
 
               </a>
             
-              <a class="relative mt-[0.5rem] me-2" href="/tags/torrent/">
+              <a class="relative mt-[0.5rem] me-2" href="/tags/dracula/">
                 <span class="flex cursor-pointer">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Torrent
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/open-source/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Open-Source
+    Dracula
   </span>
 </span>
 
@@ -858,20 +867,40 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
     class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#qué-es-pyradio">¿Qué es PyRadio?</a></li>
     <li><a href="#instalación">Instalación</a></li>
-    <li><a href="#configuración-de-torrra-en-configtorrraconfigtoml">Configuración de torrra en ~/.config/torrra/config.toml:</a></li>
-    <li><a href="#iniciar-jackett">Iniciar Jackett</a>
+    <li><a href="#agregar-emisoras">Agregar emisoras</a>
       <ul>
-        <li><a href="#si-queremos-parar-el-demonio-jackett">si queremos parar el demonio jackett</a></li>
+        <li><a href="#de-dónde-saco-las-urls">¿De dónde saco las URLs?</a></li>
       </ul>
     </li>
-    <li><a href="#interfaz-web-de-jackett-en-httplocalhost9117">Interfaz web de Jackett en http://localhost:9117:</a></li>
-    <li><a href="#usar-torrra">Usar torrra</a>
+    <li><a href="#radiobrowser-integrado">RadioBrowser integrado</a>
       <ul>
-        <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
-        <li><a href="#con-eso-solo-se-pone-rrr-en-la-terminal">Con eso solo se pone <code>rrr</code> en la terminal:</a></li>
+        <li><a href="#buscar-emisoras">Buscar emisoras</a></li>
+        <li><a href="#historial-de-búsquedas">Historial de búsquedas</a></li>
+        <li><a href="#guardar-una-emisora-a-tu-playlist">Guardar una emisora a tu playlist</a></li>
+        <li><a href="#guardar-cambios-en-la-playlist">Guardar cambios en la playlist</a></li>
+        <li><a href="#cerrar-radiobrowser">Cerrar RadioBrowser</a></li>
       </ul>
     </li>
+    <li><a href="#gestión-de-playlists">Gestión de playlists</a>
+      <ul>
+        <li><a href="#crear-una-nueva-playlist">Crear una nueva playlist</a></li>
+        <li><a href="#borrar-una-emisora">Borrar una emisora</a></li>
+        <li><a href="#agregar-a-favoritos">Agregar a favoritos</a></li>
+        <li><a href="#borrar-una-playlist">Borrar una playlist</a></li>
+      </ul>
+    </li>
+    <li><a href="#atajos-básicos">Atajos básicos</a>
+      <ul>
+        <li><a href="#navegación">Navegación</a></li>
+        <li><a href="#reproducción">Reproducción</a></li>
+        <li><a href="#playlists">Playlists</a></li>
+        <li><a href="#búsqueda">Búsqueda</a></li>
+      </ul>
+    </li>
+    <li><a href="#temas">Temas</a></li>
+    <li><a href="#evitar-que-mpv-abra-ventana">Evitar que mpv abra ventana</a></li>
   </ul>
 </nav>
   </div>
@@ -885,20 +914,40 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
     class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#qué-es-pyradio">¿Qué es PyRadio?</a></li>
     <li><a href="#instalación">Instalación</a></li>
-    <li><a href="#configuración-de-torrra-en-configtorrraconfigtoml">Configuración de torrra en ~/.config/torrra/config.toml:</a></li>
-    <li><a href="#iniciar-jackett">Iniciar Jackett</a>
+    <li><a href="#agregar-emisoras">Agregar emisoras</a>
       <ul>
-        <li><a href="#si-queremos-parar-el-demonio-jackett">si queremos parar el demonio jackett</a></li>
+        <li><a href="#de-dónde-saco-las-urls">¿De dónde saco las URLs?</a></li>
       </ul>
     </li>
-    <li><a href="#interfaz-web-de-jackett-en-httplocalhost9117">Interfaz web de Jackett en http://localhost:9117:</a></li>
-    <li><a href="#usar-torrra">Usar torrra</a>
+    <li><a href="#radiobrowser-integrado">RadioBrowser integrado</a>
       <ul>
-        <li><a href="#alternativa-para-no-escribir-toda-la-palabra-torrra">Alternativa para no escribir toda la palabra <strong>torrra</strong></a></li>
-        <li><a href="#con-eso-solo-se-pone-rrr-en-la-terminal">Con eso solo se pone <code>rrr</code> en la terminal:</a></li>
+        <li><a href="#buscar-emisoras">Buscar emisoras</a></li>
+        <li><a href="#historial-de-búsquedas">Historial de búsquedas</a></li>
+        <li><a href="#guardar-una-emisora-a-tu-playlist">Guardar una emisora a tu playlist</a></li>
+        <li><a href="#guardar-cambios-en-la-playlist">Guardar cambios en la playlist</a></li>
+        <li><a href="#cerrar-radiobrowser">Cerrar RadioBrowser</a></li>
       </ul>
     </li>
+    <li><a href="#gestión-de-playlists">Gestión de playlists</a>
+      <ul>
+        <li><a href="#crear-una-nueva-playlist">Crear una nueva playlist</a></li>
+        <li><a href="#borrar-una-emisora">Borrar una emisora</a></li>
+        <li><a href="#agregar-a-favoritos">Agregar a favoritos</a></li>
+        <li><a href="#borrar-una-playlist">Borrar una playlist</a></li>
+      </ul>
+    </li>
+    <li><a href="#atajos-básicos">Atajos básicos</a>
+      <ul>
+        <li><a href="#navegación">Navegación</a></li>
+        <li><a href="#reproducción">Reproducción</a></li>
+        <li><a href="#playlists">Playlists</a></li>
+        <li><a href="#búsqueda">Búsqueda</a></li>
+      </ul>
+    </li>
+    <li><a href="#temas">Temas</a></li>
+    <li><a href="#evitar-que-mpv-abra-ventana">Evitar que mpv abra ventana</a></li>
   </ul>
 </nav>
   </div>
@@ -915,7 +964,17 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>TUI para buscar y descargar torrents desde la terminal, powered by Jackett.</p>
+          
+<h2 class="relative group">¿Qué es PyRadio?
+    <div id="qué-es-pyradio" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#qu%c3%a9-es-pyradio" aria-label="Ancla">#</a>
+    </span>
+    
+</h2>
+<p>PyRadio es un reproductor de radio por internet que corre directamente en la terminal. Está escrito en Python, usa mpv como backend de audio y tiene navegación estilo vim. Sin interfaz gráfica, sin anuncios, sin complicaciones.</p>
 
 <h2 class="relative group">Instalación
     <div id="instalación" class="anchor"></div>
@@ -926,107 +985,279 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
     </span>
     
 </h2>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">paru -S jackett-bin
-</span></span><span class="line"><span class="cl">paru -S torrra</span></span></code></pre></div></div>
+<p>En CachyOS o cualquier distro basada en Arch:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">paru -S pyradio</span></span></code></pre></div></div>
 
-<h2 class="relative group">Configuración de torrra en ~/.config/torrra/config.toml:
-    <div id="configuración-de-torrra-en-configtorrraconfigtoml" class="anchor"></div>
+<h2 class="relative group">Agregar emisoras
+    <div id="agregar-emisoras" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#configuraci%c3%b3n-de-torrra-en-configtorrraconfigtoml" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#agregar-emisoras" aria-label="Ancla">#</a>
     </span>
     
 </h2>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">general</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">download_path</span> <span class="p">=</span> <span class="s2">&#34;/home/graplo/Descargas&#34;</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">download_in_external_client</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">use_transmission</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">transmission_user</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">transmission_pass</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;dracula&#34;</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">timeout</span> <span class="p">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">max_retries</span> <span class="p">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">use_cache</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">cache_ttl</span> <span class="p">=</span> <span class="mi">300</span>
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">indexers</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;jackett&#34;</span>
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="nx">indexers</span><span class="p">.</span><span class="nx">jackett</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;http://localhost:9117&#34;</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">api_key</span> <span class="p">=</span> <span class="s2">&#34;TU_API_KEY&#34;</span></span></span></code></pre></div></div>
+<p>PyRadio guarda las emisoras en un archivo CSV simple en <code>~/.config/pyradio/stations.csv</code>. Cada línea es una emisora con nombre y URL:</p>
+<p>Doble Nueve, <a href="https://conectperu.com:7000/stream?icy=http"  target="_blank" rel="noreferrer">https://conectperu.com:7000/stream?icy=http</a>
+Filarmonía, <a href="https://c22.radioboss.fm:18100/live"  target="_blank" rel="noreferrer">https://c22.radioboss.fm:18100/live</a></p>
 
-<h2 class="relative group">Iniciar Jackett
-    <div id="iniciar-jackett" class="anchor"></div>
+<h3 class="relative group">¿De dónde saco las URLs?
+    <div id="de-dónde-saco-las-urls" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#iniciar-jackett" aria-label="Ancla">#</a>
-    </span>
-    
-</h2>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl start jackett</span></span></code></pre></div></div>
-
-<h3 class="relative group">si queremos parar el demonio jackett
-    <div id="si-queremos-parar-el-demonio-jackett" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#si-queremos-parar-el-demonio-jackett" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#de-d%c3%b3nde-saco-las-urls" aria-label="Ancla">#</a>
     </span>
     
 </h3>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl stop jackett</span></span></code></pre></div></div>
+<p>La forma más fácil es buscar tu emisora en <a href="https://www.radio-browser.info"  target="_blank" rel="noreferrer">RadioBrowser</a> — una base de datos colaborativa y de código abierto con más de 300,000 emisoras. Desde la página de detalles copia el campo <code>url</code> directamente al CSV.</p>
+<p>Si la emisora usa un codec como AAC+ que algunos reproductores rechazan, la URL directa del stream suele funcionar sin problemas. Para verificar antes de agregarla:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mpv https://tu-url-del-stream</span></span></code></pre></div></div>
 
-<h2 class="relative group">Interfaz web de Jackett en http://localhost:9117:
-    <div id="interfaz-web-de-jackett-en-httplocalhost9117" class="anchor"></div>
+<h2 class="relative group">RadioBrowser integrado
+    <div id="radiobrowser-integrado" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#interfaz-web-de-jackett-en-httplocalhost9117" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#radiobrowser-integrado" aria-label="Ancla">#</a>
     </span>
     
 </h2>
+<p>PyRadio tiene RadioBrowser integrado directamente. Presiona <code>O</code> para abrirlo — por defecto carga las 100 emisoras más votadas de la plataforma.</p>
+
+<h3 class="relative group">Buscar emisoras
+    <div id="buscar-emisoras" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#buscar-emisoras" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Dentro de RadioBrowser presiona <code>s</code> para abrir la ventana de búsqueda. Puedes filtrar por nombre, país, idioma, bitrate y más. Para buscar emisoras peruanas por ejemplo pon <code>PE</code> en el campo Country.</p>
+
+<h3 class="relative group">Historial de búsquedas
+    <div id="historial-de-búsquedas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#historial-de-b%c3%basquedas" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>PyRadio guarda las búsquedas que haces en RadioBrowser. Para navegar por ellas dentro de la ventana de búsqueda (<code>s</code>):</p>
 <ul>
-<li>Copiar API key al <code>config.toml</code></li>
-<li>Agregar trackers (The Pirate Bay, YTS, etc.)</li>
+<li><code>Ctrl+N / Ctrl+P</code> — moverte entre búsquedas anteriores y siguientes</li>
+<li><code>Ctrl+B</code> — marcar la búsqueda actual como predeterminada</li>
 </ul>
 
-<h2 class="relative group">Usar torrra
-    <div id="usar-torrra" class="anchor"></div>
+<h3 class="relative group">Guardar una emisora a tu playlist
+    <div id="guardar-una-emisora-a-tu-playlist" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#usar-torrra" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#guardar-una-emisora-a-tu-playlist" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ol>
+<li>Navega hasta la emisora que quieras</li>
+<li>Presiona <code>y</code> para copiarla (yank, como en vim)</li>
+<li>Presiona <code>Enter</code> para guardarla en el registro</li>
+<li>Sal de RadioBrowser con <code>q</code></li>
+<li>Presiona <code>p</code> para pegarla en tu playlist actual</li>
+</ol>
+
+<h3 class="relative group">Guardar cambios en la playlist
+    <div id="guardar-cambios-en-la-playlist" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#guardar-cambios-en-la-playlist" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Después de pegar o modificar cualquier emisora presiona <code>s</code> para guardar.
+PyRadio debería guardar automáticamente al salir pero por si acaso mejor hacerlo manual.</p>
+
+<h3 class="relative group">Cerrar RadioBrowser
+    <div id="cerrar-radiobrowser" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cerrar-radiobrowser" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Con <code>q</code>, <code>Escape</code> o <code>\\</code> (doble backslash) para volver al historial de playlists.</p>
+
+<h2 class="relative group">Gestión de playlists
+    <div id="gestión-de-playlists" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#gesti%c3%b3n-de-playlists" aria-label="Ancla">#</a>
     </span>
     
 </h2>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">torrra</span></span></code></pre></div></div>
 
-<h3 class="relative group">Alternativa para no escribir toda la palabra <strong>torrra</strong>
-    <div id="alternativa-para-no-escribir-toda-la-palabra-torrra" class="anchor"></div>
+<h3 class="relative group">Crear una nueva playlist
+    <div id="crear-una-nueva-playlist" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#alternativa-para-no-escribir-toda-la-palabra-torrra" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#crear-una-nueva-playlist" aria-label="Ancla">#</a>
     </span>
     
 </h3>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">rrr</span><span class="o">=</span><span class="s2">&#34;torrra&#34;</span>
-</span></span><span class="line"><span class="cl">funcsave rrr</span></span></code></pre></div></div>
-<blockquote><p>con funcsave es para que se quede el comando permanente.</p>
-</blockquote>
-<h3 class="relative group">Con eso solo se pone <code>rrr</code> en la terminal:
-    <div id="con-eso-solo-se-pone-rrr-en-la-terminal" class="anchor"></div>
+<ol>
+<li>Presiona <code>o</code> para abrir el selector de playlists</li>
+<li>Desde ahí presiona <code>n</code> para crear una nueva</li>
+<li>Le pones nombre y listo</li>
+</ol>
+<p>También puedes crearla directamente como CSV:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch ~/.config/pyradio/clasica.csv</span></span></code></pre></div></div>
+
+<h3 class="relative group">Borrar una emisora
+    <div id="borrar-una-emisora" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#con-eso-solo-se-pone-rrr-en-la-terminal" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#borrar-una-emisora" aria-label="Ancla">#</a>
     </span>
     
 </h3>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rrr</span></span></code></pre></div></div>
+<p>Selecciónala y presiona <code>del</code> — pide confirmación antes de borrar.</p>
+
+<h3 class="relative group">Agregar a favoritos
+    <div id="agregar-a-favoritos" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#agregar-a-favoritos" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Presiona <code>*</code> sobre cualquier emisora para agregarla a la playlist de favoritos. Presiona <code>*</code> de nuevo para quitarla. Para ver tus favoritos presiona <code>o</code> y selecciona la lista <code>favorites</code>.</p>
+
+<h3 class="relative group">Borrar una playlist
+    <div id="borrar-una-playlist" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#borrar-una-playlist" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Desde la terminal:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rm ~/.config/pyradio/nombre-playlist.csv</span></span></code></pre></div></div>
+
+<h2 class="relative group">Atajos básicos
+    <div id="atajos-básicos" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#atajos-b%c3%a1sicos" aria-label="Ancla">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">Navegación
+    <div id="navegación" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#navegaci%c3%b3n" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><code>j / k</code> o flechas — bajar/subir en la lista</li>
+<li><code>g / G</code> — ir al inicio/final</li>
+<li><code>Enter</code> — reproducir emisora seleccionada</li>
+<li><code>p</code> — ir a la emisora que está sonando</li>
+<li><code>q</code> — salir</li>
+</ul>
+
+<h3 class="relative group">Reproducción
+    <div id="reproducción" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#reproducci%c3%b3n" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><code>Space</code> — detener/reanudar</li>
+<li><code>+ / -</code> — subir/bajar volumen</li>
+<li><code>m</code> — silenciar</li>
+<li><code>r</code> — reproducir una emisora aleatoria</li>
+</ul>
+
+<h3 class="relative group">Playlists
+    <div id="playlists" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#playlists" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><code>o</code> — abrir selector de playlists</li>
+<li><code>s</code> — guardar playlist actual</li>
+<li><code>R</code> — recargar playlist desde disco</li>
+<li><code>*</code> — agregar/quitar de favoritos</li>
+</ul>
+
+<h3 class="relative group">Búsqueda
+    <div id="búsqueda" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#b%c3%basqueda" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><code>/</code> — buscar en la lista actual</li>
+<li><code>n / N</code> — siguiente/anterior resultado</li>
+<li><code>O</code> — abrir RadioBrowser</li>
+</ul>
+
+<h2 class="relative group">Temas
+    <div id="temas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#temas" aria-label="Ancla">#</a>
+    </span>
+    
+</h2>
+<p>PyRadio trae varios temas incluidos, entre ellos Dracula y Catppuccin. Para cambiar el tema:</p>
+<ol>
+<li>Presiona <code>t</code> para abrir el selector de temas</li>
+<li>Navega con <code>j/k</code> o las flechas hasta el que quieras</li>
+<li>Presiona <code>Enter</code> para previsualizar</li>
+<li>Si te convence presiona <code>Space</code> para dejarlo como predeterminado</li>
+</ol>
+<p>El asterisco <code>*</code> en la lista indica cuál es el tema activo por defecto.</p>
+
+<h2 class="relative group">Evitar que mpv abra ventana
+    <div id="evitar-que-mpv-abra-ventana" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#evitar-que-mpv-abra-ventana" aria-label="Ancla">#</a>
+    </span>
+    
+</h2>
+<p>Por defecto mpv puede abrir una ventana visual al reproducir. Para que corra en background cuando lo llama pyradio, edita <code>~/.config/mpv/mpv.conf</code>:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">  force-window=yes
+</span></span><span class="line"><span class="cl">[pyradio]
+</span></span><span class="line"><span class="cl">force-window=no</span></span></code></pre></div></div>
+<p>El perfil <code>[pyradio]</code> lo activa pyradio automáticamente, así el resto de usos de mpv no se ven afectados.</p>
 
           
           
@@ -1054,21 +1285,21 @@ Instalación # paru -S jackett-bin paru -S torrra Configuración de torrra en ~/
       <div class="flex justify-between pt-3">
         <span class="flex flex-col">
           
-        </span>
-        <span class="flex flex-col items-end">
-          
             <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/blog/logseq-dracula/">
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/blog/obs-wayland-niri-solution/">
               <span class="leading-6">
-                Logseq - Dracula theme - arreglo&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Cambiar escenas de OBS con Niri
               </span>
             </a>
             
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-03-25T00:00:00&#43;00:00">25 marzo 2026</time>
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-05-03T21:47:08-05:00">3 mayo 2026</time>
               </span>
             
+          
+        </span>
+        <span class="flex flex-col items-end">
           
         </span>
       </div>
