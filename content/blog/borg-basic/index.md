@@ -147,12 +147,13 @@ El verdadero poder de Borg viene cuando lo automatizas. Este es un script funcio
 
 ```bash
 #!/usr/bin/env bash
+# set -e: muere si hay error / -u: muere si una variable no existe / -o pipefail: atrapa errores en tuberías
 set -euo pipefail
 
 BACKUP_PATH="/run/media/graplo/db2/backup"
 now=$(date +"%Y-%m-%d_%H-%M-%S")
 
-borg create --progress --stats --compression zstd,3 "$BACKUP_PATH::home-${now}" \
+borg create --progress --stats --compression auto,zstd,3 "$BACKUP_PATH::home-${now}" \
     --exclude "$HOME/.cache/" \
     --exclude "$HOME/.local/share/Trash" \
     --exclude "$HOME/.local/share/Steam" \
@@ -163,6 +164,8 @@ borg create --progress --stats --compression zstd,3 "$BACKUP_PATH::home-${now}" 
     "$HOME"
 
 borg prune --stats --keep-last 7 --glob-archives "home-*" "$BACKUP_PATH"
+borg compact "$BACKUP_PATH"
+
 ```
 
 `set -euo pipefail` hace que el script muera si hay cualquier error en vez de continuar silenciosamente. Las exclusiones evitan backupear cachés, la papelera, imágenes de Steam, Flatpak, podman y modelos de ollama — todo lo que pesa mucho y se puede volver a descargar.
