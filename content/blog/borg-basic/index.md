@@ -176,4 +176,4 @@ Si venías de Pika Backup, tus backups anteriores no tienen compresión — Pika
 
 ## YouTube
 
-{{< youtube https://youtu.be/E1sIWAT4VsA >}}
+{{< youtube E1sIWAT4VsA >}}
