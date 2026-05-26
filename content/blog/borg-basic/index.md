@@ -173,3 +173,7 @@ borg compact "$BACKUP_PATH"
 ## Pika Backup y la compresión
 
 Si venías de Pika Backup, tus backups anteriores no tienen compresión — Pika la desactiva por defecto para simplificar la interfaz. Puedes seguir usando el mismo repositorio con zstd desde ahora sin problema, Borg maneja cada archive de forma independiente y no se confunde.
+
+## YouTube
+
+{{< youtube https://youtu.be/E1sIWAT4VsA >}}
