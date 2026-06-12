@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>Niri</title>
+      <link>http://localhost:1313/categories/niri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/categories/niri/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Open Source</title>
       <link>http://localhost:1313/categories/open-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

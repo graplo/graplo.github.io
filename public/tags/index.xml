@@ -312,7 +312,7 @@
     </item>
     
     <item>
-      <title>GUI</title>
+      <title>Gui</title>
       <link>http://localhost:1313/tags/gui/</link>
       <pubDate>Sat, 04 Apr 2026 20:53:51 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
@@ -402,6 +402,26 @@
     </item>
     
     <item>
+      <title>Awww</title>
+      <link>http://localhost:1313/tags/awww/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/awww/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lockscreen</title>
+      <link>http://localhost:1313/tags/lockscreen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/lockscreen/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>http://localhost:1313/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -412,11 +432,31 @@
     </item>
     
     <item>
+      <title>Scripts</title>
+      <link>http://localhost:1313/tags/scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/scripts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Starship</title>
       <link>http://localhost:1313/tags/starship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>http://localhost:1313/tags/starship/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Swaylock</title>
+      <link>http://localhost:1313/tags/swaylock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/tags/swaylock/</guid>
       <description></description>
       
     </item>
