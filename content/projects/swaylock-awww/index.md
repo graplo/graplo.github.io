@@ -203,11 +203,11 @@ Este enfoque separa claramente responsabilidades:
 
 El resultado es un sistema limpio, automático y coherente visualmente.
 
-## tip
-
-Si quieres hacer captura de lock screen usa **`grim`**
+## tip para tomar foto de ello
 
 ```bash
-sleep 5 && niri msg screenshot > ~/lockscreen.png
+sleep 5 && grim ~/lockscreen.png
 ```
+> tienes q tener grim para esto.
+
 Con este ejemplo le damos 5 segundos para que te de tiempo de poner el **`swaylock`** en mi caso uso las teclas `super+alt+l`.
