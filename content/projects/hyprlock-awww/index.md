@@ -1,10 +1,10 @@
 ---
-title: "Hyprlock Awww"
-draft: true
-summary: ""
-tags: []
+title: "Hyprlock y Awww"
+draft: false
+summary: "Implementación de un lock screen sincronizado en Niri usando awww para obtener dinámicamente el wallpaper actual y Hyprlock para aplicar blur y estilo, mediante un script wrapper que automatiza la extracción de la imagen activa dentro de un enlace simbolico y su integración con Hyprlock sin perder la configuración visual existente."
+tags: ["lockscreen", "terminal", "hyprlock", "scripts", "awww"]
 showDate: false
-categories: []
+categories: ["Niri"]
 ---
 
 ## Introducción
