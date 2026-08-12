@@ -41,10 +41,10 @@ Vamos a sobrescribir la regla de GNOME para asegurarnos de que cubra absolutamen
 Ejecuta este bloque completo en tu terminal (te pedirá contraseña de sudo):
 
 ```bash
-sudo bash -c 'cat <<EOF> /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
+sudo bash -c 'cat <<EOF > /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
 [Thumbnailer Entry]
 TryExec=ffmpegthumbnailer
-Exec=ffmpegthumbnailer -i %i -o %o -s %s -q 7
+Exec=ffmpegthumbnailer -i %i -o %o -s %s -f
 MimeType=video/3gpp;video/3gpp2;video/annodex;video/dv;video/isivideo;video/mj2;video/mp2t;video/mp4;video/mpeg;video/ogg;video/quicktime;video/vnd.avi;video/vnd.mpegurl;video/vnd.radgamettools.bink;video/vnd.radgamettools.smacker;video/vnd.rn-realvideo;video/vnd.vivo;video/vnd.youtube.yt;video/wavelet;video/webm;video/x-anim;video/x-flic;video/x-flv;video/x-javafx;video/x-matroska;video/matroska;video/x-matroska-3d;video/x-mjpeg;video/x-mng;video/x-ms-wmv;video/x-nsv;video/x-ogm+ogg;video/x-sgi-movie;video/x-theora+ogg;application/mxf;application/vnd.ms-asf;application/vnd.rn-realmedia;application/x-matroska;application/ogg;
 EOF'
 ```
