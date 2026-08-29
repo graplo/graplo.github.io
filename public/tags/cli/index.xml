@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cli on Graplo</title>
+    <title>CLI on Graplo</title>
     <link>https://graplo.github.io/tags/cli/</link>
-    <description>Recent content in Cli on Graplo</description>
+    <description>Recent content in CLI on Graplo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
