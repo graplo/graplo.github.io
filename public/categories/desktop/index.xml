@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desktop on Graplo</title>
+    <link>https://graplo.github.io/categories/desktop/</link>
+    <description>Recent content in Desktop on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Wed, 29 Jul 2026 07:25:59 -0500</lastBuildDate><atom:link href="https://graplo.github.io/categories/desktop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Miniaturas_nautilus_mkv_solucion</title>
+      <link>https://graplo.github.io/blog/miniaturas_nautilus_mkv_solucion/</link>
+      <pubDate>Wed, 29 Jul 2026 07:25:59 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>https://graplo.github.io/blog/miniaturas_nautilus_mkv_solucion/</guid>
+      <description>Cómo hacer que Nautilus muestre las vistas previas de tus grabaciones de OBS en formato .mkv configurando ffmpegthumbnailer correctamente.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://graplo.github.io/blog/miniaturas_nautilus_mkv_solucion/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>
