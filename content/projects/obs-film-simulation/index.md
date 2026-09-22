@@ -1,6 +1,6 @@
 ---
 title: "LUTs de Emulación de Película para OBS Studio"
-draft: true
+draft: false
 summary: "Cómo convertí una colección de LUTs de RawTherapee al formato que usa OBS, y cómo lo pueden hacer ustedes con cualquier LUT que tengan."
 tags: ["linux", "obs", "luts", "streaming"]
 showDate: false

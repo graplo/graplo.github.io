@@ -177,6 +177,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://graplo.github.io/projects/obs-film-simulation/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://graplo.github.io/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Cli</title>
+      <title>CLI</title>
       <link>https://graplo.github.io/tags/cli/</link>
       <pubDate>Mon, 10 Aug 2026 12:46:35 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
@@ -392,7 +392,7 @@
     </item>
     
     <item>
-      <title>GUI</title>
+      <title>Gui</title>
       <link>https://graplo.github.io/tags/gui/</link>
       <pubDate>Sat, 04 Apr 2026 20:53:51 -0500</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
@@ -527,6 +527,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>graplo@disroot.com (Graplo)</author>
       <guid>https://graplo.github.io/tags/lockscreen/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Luts</title>
+      <link>https://graplo.github.io/tags/luts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>https://graplo.github.io/tags/luts/</guid>
       <description></description>
       
     </item>
