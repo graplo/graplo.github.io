@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitwarden on Graplo</title>
+    <link>http://localhost:1313/tags/bitwarden/</link>
+    <description>Recent content in Bitwarden on Graplo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>graplo@disroot.com (Graplo)</managingEditor>
+    <webMaster>graplo@disroot.com (Graplo)</webMaster>
+    <copyright>© 2026 Graplo</copyright>
+    <lastBuildDate>Mon, 22 Jun 2026 20:27:26 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/bitwarden/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>rbw y rofi-rbw: Bitwarden en una caja</title>
+      <link>http://localhost:1313/blog/rofi-rbw/</link>
+      <pubDate>Mon, 22 Jun 2026 20:27:26 -0500</pubDate>
+      <author>graplo@disroot.com (Graplo)</author>
+      <guid>http://localhost:1313/blog/rofi-rbw/</guid>
+      <description>Configuración completa de rbw y rofi-rbw para acceder a Bitwarden con un atajo de teclado, sin abrir el navegador.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/rofi-rbw/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>
